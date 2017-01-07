@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imageSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_ff"/>
+        <RelativeLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/nameSong"
+                android:text="Buc Tranh Tu Nuoc Mat"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/nameSinger"
+                android:layout_below="@+id/nameSong"
+                android:text="MR.Siro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/btnAddPlaylist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_add"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
